@@ -1,0 +1,8 @@
+public/assets/*
+.bundle
+vendor/bundle
+.git*
+log
+tmp
+.DS_Store
+.dockerignore

@@ -1,24 +1,12 @@
-# README
+# NITAC Rails Hanson
+Rails ハンズオンで使えるTodoリスト
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 環境設定
+下記のコマンドを入力するだけ (のはず)
+```shell
+> source nitac-rails-hanson-setup
+```
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 参考URL
+- Dockerによるセットアップ  
+  https://qiita.com/pokohide/items/7397b92a188da841b435

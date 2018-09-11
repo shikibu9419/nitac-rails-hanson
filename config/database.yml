@@ -4,14 +4,14 @@ default: &default
   timeout: 5000
   port: 5432
   host: <%= ENV.fetch('DATABASE_HOST') { 'localhost' } %>
-  username: <%= ENV.fetch('DATABASE_USER') { 'root' } %>
+  username: <%= ENV.fetch('DATABASE_USER') { 'shikibu' } %>
   password: <%= ENV.fetch('DATABASE_PASSWORD') { 'password' } %>
   pool: <%= ENV.fetch('RAILS_MAX_THREADS') { 5 } %>
 
 development:
   <<: *default
-  database: myapp_development
+  database: development
 
 test:
   <<: *default
-  database: myapp_test
+  database: test

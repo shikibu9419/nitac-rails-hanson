@@ -1,0 +1,27 @@
+h1 Listing todos
+
+table
+  thead
+    tr
+      th Title
+      th Content
+      th User
+      th Is done
+      th
+      th
+      th
+
+  tbody
+    - @todos.each do |todo|
+      tr
+        td = todo.title
+        td = todo.content
+        td = todo.user_id
+        td = todo.is_done
+        td = link_to 'Show', todo
+        td = link_to 'Edit', edit_todo_path(todo)
+        td = link_to 'Destroy', todo, data: { confirm: 'Are you sure?' }, method: :delete
+
+br
+
+= link_to 'New Todo', new_todo_path

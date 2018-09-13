@@ -10,3 +10,5 @@ Rails ハンズオンで使えるTodoリスト
 ## 参考URL
 - Dockerによるセットアップ  
   https://qiita.com/pokohide/items/7397b92a188da841b435
+- devise.rb  
+  https://qiita.com/cigalecigales/items/f4274088f20832252374

@@ -1,10 +1,15 @@
 # NITAC Rails Hanson
-Rails ハンズオンで使えるTodoリスト
+Rails ハンズオンで使えるTodoリストサンプル
 
 ## 環境設定
-下記のコマンドを入力するだけ (のはず)
+下記のコマンドを入力するとセットアップが完了する.
 ```shell
 > source nitac-rails-hanson-setup
+```
+
+以降は下記のコマンド入力でサーバが起動される(ハズ)
+```shell
+> docker-compose up
 ```
 
 ## 参考URL
